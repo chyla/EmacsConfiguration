@@ -1,4 +1,7 @@
 elpa/archives/
 elpa/gnupg/
+elpa/*.txt
 places
+*.elc
+\#*#
 *~
