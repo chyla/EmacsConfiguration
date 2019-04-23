@@ -28,7 +28,7 @@
 ;;;;; SITE START CONFIGURATION
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (message "Loading my-site-start...")
-(autoload 'my-site-start "~/.emacs.d/my_extensions/my-site-start/my-site-start.el" nil t)
+(autoload 'my-site-start "~/.emacs.d/extensions/my-site-start/my-site-start.el" nil t)
 (message "Loading my-site-start... Done.")
 
 (message "Starting my-site-start scripts...")
