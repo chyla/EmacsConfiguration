@@ -1,3 +1,6 @@
+; Robot Framework Support
+; https://github.com/sakari/robot-mode
+
 (message "Loading robot-mode settings...")
 
 (load-file "~/.emacs.d/extensions/robot-mode/robot-mode.el")
