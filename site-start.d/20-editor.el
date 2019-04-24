@@ -55,8 +55,8 @@
 (setq line-number-display-limit-width 2000000) ; invisible impact on performance
 
 ; line numbers
-; (global-linum-mode t) ; performance issue with long lines
+(global-linum-mode t) ; performance issue with long lines
 (setq linum-format "%5i   \u2502 ")
 
 ; highlight current line
-; (global-hl-line-mode 1) ; performance issue with long lines
+(global-hl-line-mode 1) ; performance issue with long lines
