@@ -13,5 +13,6 @@
 (global-set-key (kbd "C-c = v") 'magit-status)
 (global-set-key (kbd "C-c = e") 'list-flycheck-errors)
 (global-set-key (kbd "C-c = h") 'highlight-symbol)
+(global-set-key (kbd "C-c = l") 'goto-last-change)
 
 (message "Setting global shortcuts... Done.")
