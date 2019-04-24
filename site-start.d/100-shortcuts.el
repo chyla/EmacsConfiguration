@@ -12,5 +12,6 @@
 (global-set-key (kbd "C-c = c") 'multi-compile-run)
 (global-set-key (kbd "C-c = v") 'magit-status)
 (global-set-key (kbd "C-c = e") 'list-flycheck-errors)
+(global-set-key (kbd "C-c = h") 'highlight-symbol)
 
 (message "Setting global shortcuts... Done.")
