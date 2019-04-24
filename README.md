@@ -8,7 +8,19 @@ My configuration for Emacs, may not be useful for you.
 Clone the repository into the ~/.emacs.d/ directory and run the Emacs.
 
 
-### Overview
+### Recomended software
+
+Install your favorite checkers for Flycheck, eg:
+
+* cppcheck - a static analysis tool for C/C++ code (http://cppcheck.sourceforge.net/)
+* pylint - code analysis for Python (https://www.pylint.org/)
+* flake8 - Your Tool For Style Guide Enforcement (http://flake8.pycqa.org/en/latest/)
+* docutils - Documentation Utilities - Written in Python, for General- and Special-Purpose Use (http://docutils.sourceforge.net/)
+
+You can verify installed checkers with `flycheck-verify-checker` command.
+
+
+### Custom configuration
 
 Custom user configuration could be stored in the ~/.emacs.d/user-settings.d/ directory.
 
