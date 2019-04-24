@@ -5,7 +5,7 @@ My configuration for Emacs, may not be useful for you.
 
 ## Getting Started
 
-Clone the repository into the ~/.emacs.d/ directory and run the Emacs.
+Clone the repository into the `~/.emacs.d/` directory and run the Emacs.
 
 
 ### Recomended software
@@ -22,9 +22,9 @@ You can verify installed checkers with `flycheck-verify-checker` command.
 
 ### Custom configuration
 
-Custom user configuration could be stored in the ~/.emacs.d/user-settings.d/ directory.
+Custom user configuration could be stored in the `~/.emacs.d/user-settings.d/` directory.
 
-Example 150-example-configuration.el file:
+Example `150-example-configuration.el` file:
 
 ```
 ; configuration executed on start
