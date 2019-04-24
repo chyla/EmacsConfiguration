@@ -36,3 +36,7 @@
 (message "Starting my-site-start scripts...")
 (my-site-start "~/.emacs.d/site-start.d/")
 (message "Starting my-site-start scripts... Done.")
+
+(message "Starting user-settings.d scripts...")
+(my-site-start "~/.emacs.d/user-settings.d/")
+(message "Starting user-settings.d scripts... Done.")
