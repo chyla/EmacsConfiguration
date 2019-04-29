@@ -45,6 +45,8 @@
 (defun pvj/inhibit-electric-pair-mode (char) (minibufferp))
 (setq electric-pair-inhibit-predicate #'pvj/inhibit-electric-pair-mode)
 
+; Scroll compilation output
+(setq compilation-scroll-output 1)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;; SETTINGS IMPACTING PERFORMANCE
