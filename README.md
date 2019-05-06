@@ -68,7 +68,7 @@ Example `150-example-configuration.el` file:
 
 ## Frequently asked questions
 
-Q: How do I enter an input that matches one of the candidates instead
+Q: (Swipper) How do I enter an input that matches one of the candidates instead
    of this candidate? Example: create a file `bar` when a file
    `barricade` exists in the current directory.
 
