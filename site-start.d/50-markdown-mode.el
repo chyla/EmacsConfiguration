@@ -18,6 +18,9 @@
     )
   )
 
-(message "Current markdown command: %s" markdown-command)
+(if (boundp 'markdown-command)
+    (message "Current markdown command: %s" markdown-command)
+  (message "WARN: Markdown command not detected.")
+  )
 
 (message "Loading markdown-mode settings... Done.")
