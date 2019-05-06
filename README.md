@@ -29,7 +29,7 @@ Install your favorite Markdown processor, eg:
 * MultiMarkdown
 * Pandoc
 
-Current configuration will try to detect markdown processor, but in some cases you will have to pint markdown-command to the preferred Markdown executable on your system, eg:
+Current configuration will try to detect markdown processor, but in some cases you will have to point markdown-command to the preferred Markdown executable on your system, eg:
 
 (setq markdown-command "pandoc")
 
