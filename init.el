@@ -17,7 +17,7 @@
     ("d5aec3a39364bc4c6c13f472b2d0cdaebd5cff7a6e4839749be2156fcc075006" default)))
  '(package-selected-packages
    (quote
-    (goto-chg highlight-symbol flycheck multi-compile ace-window find-file-in-project ivy magit company yasnippet yasnippet-snippets chyla-theme))))
+    (diff-hl goto-chg highlight-symbol flycheck multi-compile ace-window find-file-in-project ivy magit company yasnippet yasnippet-snippets chyla-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
