@@ -21,6 +21,7 @@ Install your favorite checkers for Flycheck, eg:
 
 You can verify installed checkers with `flycheck-verify-checker` command.
 
+
 #### Markdown Mode
 
 Install your favorite Markdown processor, eg:
@@ -63,3 +64,12 @@ Example `150-example-configuration.el` file:
                                    ))
 )
 ```
+
+
+## Frequently asked questions
+
+Q: How do I enter an input that matches one of the candidates instead
+   of this candidate? Example: create a file `bar` when a file
+   `barricade` exists in the current directory.
+
+A: Press <kbd>C-M-j</kbd>. Alternatively, you can make the prompt line selectable with `(setq ivy-use-selectable-prompt t)`.
