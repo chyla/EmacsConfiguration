@@ -10,6 +10,8 @@ Clone the repository into the `~/.emacs.d/` directory and run the Emacs.
 
 ### Recomended software
 
+#### Flycheck
+
 Install your favorite checkers for Flycheck, eg:
 
 * cppcheck - a static analysis tool for C/C++ code (http://cppcheck.sourceforge.net/)
@@ -18,6 +20,18 @@ Install your favorite checkers for Flycheck, eg:
 * docutils - Documentation Utilities - Written in Python, for General- and Special-Purpose Use (http://docutils.sourceforge.net/)
 
 You can verify installed checkers with `flycheck-verify-checker` command.
+
+#### Markdown Mode
+
+Install your favorite Markdown processor, eg:
+
+* Markdown.pl
+* MultiMarkdown
+* Pandoc
+
+Current configuration will try to detect markdown processor, but in some cases you will have to pint markdown-command to the preferred Markdown executable on your system, eg:
+
+(setq markdown-command "pandoc")
 
 
 ### Custom configuration
