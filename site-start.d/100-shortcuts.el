@@ -16,4 +16,11 @@
 (global-set-key (kbd "C-c = h") 'highlight-symbol)
 (global-set-key (kbd "C-c = l") 'goto-last-change)
 
+(add-hook 'c++-mode-hook
+          '(lambda ()
+             (define-key c-mode-base-map (kbd "C-c = o") 'cff-find-other-file)))
+(add-hook 'c-mode-hook
+          '(lambda ()
+             (define-key c-mode-base-map (kbd "C-c = o") 'cff-find-other-file)))
+
 (message "Setting global shortcuts... Done.")
