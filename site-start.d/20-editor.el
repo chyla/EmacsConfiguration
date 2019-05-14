@@ -20,6 +20,9 @@
 ; change buffers list to ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
+;; show cursor position within line
+(column-number-mode 1)
+
 ; blink cursor
 (blink-cursor-mode 1) ;; or pass in -1 to turn it off
 
