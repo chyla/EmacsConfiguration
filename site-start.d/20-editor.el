@@ -17,6 +17,10 @@
       (setq-default save-place t))
   (save-place-mode 1))
 
+; set the font size
+; The value is in 1/10pt, so 100 will give you 10pt
+(set-face-attribute 'default nil :height 100)
+
 ; change buffers list to ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
