@@ -48,10 +48,10 @@ Example `150-example-configuration.el` file:
 ```
 ; configuration executed on start
 
-; line numbers
+; disable line numbers to increase performance
 (global-linum-mode -1)
 
-; highlight current line
+; disable highlight current line to increase performance
 (global-hl-line-mode -1)
 
 
