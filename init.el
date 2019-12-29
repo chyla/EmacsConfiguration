@@ -14,7 +14,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("d5aec3a39364bc4c6c13f472b2d0cdaebd5cff7a6e4839749be2156fcc075006" default)))
+    ("0c9f63c9d90d0d135935392873cd016cc1767638de92841a5b277481f1ec1f4a" "d5aec3a39364bc4c6c13f472b2d0cdaebd5cff7a6e4839749be2156fcc075006" default)))
  '(package-selected-packages
    (quote
     (cff markdown-mode diff-hl goto-chg highlight-symbol flycheck multi-compile ace-window find-file-in-project ivy magit company yasnippet yasnippet-snippets chyla-theme))))
