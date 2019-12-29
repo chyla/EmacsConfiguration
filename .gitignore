@@ -6,6 +6,7 @@
 /recentf
 /user-settings.d/
 /snippets/
+/eshell/history
 multi-compile.cache
 *.elc
 \#*#
